@@ -17,7 +17,7 @@ body {
   }
 }
 
-/*リセット / ノーマライズ / サニタイズ*/
+/*リセット ノーマライズ サニタイズ*/
 body, h1, h2, h3, h4, h5, h6, p, ul, figure {
   margin: 0;
   padding: 0;
@@ -172,6 +172,10 @@ a:hover {
     transition: left 0.5s;
   }
 
+  html, body {
+  overflow-x: hidden;
+  }
+  
   .nav ul {
     font-weight: bold;
     list-style: none;
